@@ -1,0 +1,173 @@
+.titulo{
+    flex-direction: column;
+    
+}
+body {
+    background-color: black;
+  }
+  
+  .form-cont {
+    background-color: white;
+    border: 2px solid gold;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+  }
+  .formulario-cont {
+    color: white;
+    text-shadow: 0px 0px 10px #fff, 0px 0px 20px #fff, 0px 0px 30px #fff, 0px 0px 40px #FF00E0, 0px 0px 70px #FF00E0, 0px 0px 80px #FF00E0, 0px 0px 100px #FF00E0, 0px 0px 150px #FF00E0;
+  }
+
+  /* Esto es el forulario */
+
+  body {
+    background-color: black;
+    border: solid gold 5px;
+  }
+  
+  .formulario-cont {
+    background-color: black;
+    border: solid gold 5px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .campo-descriptivo {
+    color: white;
+    font-size: 30px;
+    text-shadow: 0px 0px 10px #fff, 0px 0px 20px #fff, 0px 0px 30px #fff, 0px 0px 40px neon, 0px 0px 70px neon, 0px 0px 80px neon, 0px 0px 100px neon, 0px 0px 150px neon;
+  }
+  
+  .entrada-datos {
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    margin-left: 10px;
+  }
+  
+  .mensaje-error {
+    color: red;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .form-button {
+    background-color: gold;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    text-shadow: 0px 0px 10px #fff, 0px 0px 20px #fff, 0px 0px 30px #fff, 0px 0px 40px neon, 0px 0px 70px neon, 0px 0px 80px neon, 0px 0px 100px neon, 0px 0px 150px neon;
+  }
+  
+  .form-button:hover {
+    background-color: black;
+    color: gold;
+    transition: background-color 0.5s, color 0.5s;
+    text-shadow: 0px 0px 10px neon, 0px 0px 20px neon, 0px 0px 30px neon, 0px 0px 40px gold, 0px 0px 70px gold, 0px 0px 80px gold, 0px 0px 100px gold, 0px 0px 150px gold;
+  }
+  /* aqui voy agregar el style de app.js*/
+
+  /* Estilos generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  /* Estilos del contenedor principal */
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border: 1px solid #FFC107;
+    background-color: #111;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Estilos del encabezado */
+  .header {
+    text-align: center;
+  }
+  
+  .titulo {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #FFC107;
+    text-shadow: 0 0 5px #FFC107;
+  }
+  
+  /* Estilos del texto descriptivo */
+  .texto-descriptivo {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  /* Estilos del formulario */
+  .formulario-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  
+  .campo-descriptivo {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    color: #FFC107;
+    text-shadow: 0 0 5px #FFC107;
+  }
+  
+  .entrada-datos {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1
+  }  
+
+  .completado-checkbox {
+    margin-left: 280px; /* Agregar margen a la derecha para separar el checkbox del texto */
+    transform: scale(1.5); /* Escalar el tamaño del checkbox para que sea más visible */
+  }
+
+  .form-button {
+    background-color: #4CAF50; /* Color de fondo verde */
+    border: none; /* Eliminar el borde */
+    color: white; /* Color de texto blanco */
+    padding: 10px 20px; /* Añadir relleno al botón */
+    text-align: center; /* Centrar el texto */
+    text-decoration: none; /* Eliminar la decoración del texto */
+    display: inline-block; /* Hacer que el botón sea un bloque en línea */
+    font-size: 16px; /* Tamaño de fuente */
+    margin: 4px 2px; /* Margen entre botones */
+    cursor: pointer; /* Cambiar el cursor del mouse al pasar sobre el botón */
+  }
+  
+  .editar-button {
+    background-color: #008CBA; /* Color de fondo azul */
+    border: none; /* Eliminar el borde */
+    color: white; /* Color de texto blanco */
+    padding: 10px 20px; /* Añadir relleno al botón */
+    text-align: center; /* Centrar el texto */
+    text-decoration: none; /* Eliminar la decoración del texto */
+    display: inline-block; /* Hacer que el botón sea un bloque en línea */
+    font-size: 16px; /* Tamaño de fuente */
+    margin: 4px 2px; /* Margen entre botones */
+    cursor: pointer; /* Cambiar el cursor del mouse al pasar sobre el botón */
+  }
